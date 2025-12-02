@@ -1,0 +1,10 @@
+{
+  "name": "api",
+  "scripts": {
+    "dev": "uvicorn app.main:app --reload --port 8000"
+  },
+  "dependencies": {
+    "fastapi": "^0.115.0",
+    "uvicorn": "^0.30.6"
+  }
+}
