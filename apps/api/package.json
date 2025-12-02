@@ -1,14 +1,12 @@
 {
-  "name": "api",
-  "turbo": {
-    "pipeline": {
-      "dev": {
-        "cache": false,
-        "persistent": true
-      }
-    }
-  },
+  "name": "@kodara/api",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
     "dev": "uvicorn app.main:app --reload --port 8000"
+  },
+  "dependencies": {
+    "fastapi": "^0.115.0",
+    "uvicorn": { "extras": ["standard"] } "^0.30.6"
   }
 }
