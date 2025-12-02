@@ -4,9 +4,5 @@
   "private": true,
   "scripts": {
     "dev": "uvicorn app.main:app --reload --port 8000"
-  },
-  "dependencies": {
-    "fastapi": "^0.115.0",
-    "uvicorn[standard]": "^0.30.6"
   }
 }
