@@ -7,6 +7,6 @@
   },
   "dependencies": {
     "fastapi": "^0.115.0",
-    "uvicorn": { "extras": ["standard"] } "^0.30.6"
+    "uvicorn[standard]": "^0.30.6"
   }
 }
